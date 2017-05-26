@@ -3,3 +3,5 @@ steps:
   args: ['-O', 'index.html','http://www.example.com/']
 - name: gcr.io/cloud-builders/gsutil
   args: ['cp', '/workspace/index.html', 'gs://gcb-wget-fetch/index.html']
+images:
+- 'gcr.io/$PROJECT_ID/myImage'
