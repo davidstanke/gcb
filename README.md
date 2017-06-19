@@ -1,2 +1,2 @@
 # gcb
-Playing with gcb
+Playing with gcb. It's fun.
